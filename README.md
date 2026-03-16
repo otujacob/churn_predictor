@@ -1,1 +1,1 @@
-# churn_predictor
+# Add churn_predictor app
