@@ -52,7 +52,7 @@ churn-predictor/
 ├── final_model.pkl         # Trained XGBoost model
 ├── scaler.pkl              # Fitted StandardScaler
 ├── feature_names.pkl       # Feature names for pipeline consistency
-└── README.md               # You are here
+└── README.md               # Project overview & Result 
 ```
 
 
@@ -142,11 +142,11 @@ plotly
 
 Key papers that informed this work:
 
-- P. P. Singh et al., "Investigating customer churn in banking: a machine learning approach," *Data Science and Management*, 2024.
-- A. Manzoor et al., "A review on machine learning methods for customer churn prediction," *IEEE Access*, 2024.
-- M. Imani et al., "Comprehensive analysis of Random Forest and XGBoost with SMOTE," *Technologies*, 2025.
-- K. Peng et al., "Research on customer churn prediction and model interpretability," *PLOS ONE*, 2023.
-- T. Chen & C. Guestrin, "XGBoost: A scalable tree boosting system," *KDD*, 2016.
+- P. P. Singh et al., Investigating customer churn in banking: a machine learning approach, *Data Science and Management*, 2024.
+- A. Manzoor et al., A review on machine learning methods for customer churn prediction, *IEEE Access*, 2024.
+- M. Imani et al., Comprehensive analysis of Random Forest and XGBoost with SMOTE, *Technologies*, 2025.
+- K. Peng et al., Research on customer churn prediction and model interpretability, *PLOS ONE*, 2023.
+- T. Chen & C. Guestrin, XGBoost: A scalable tree boosting system, *KDD*, 2016.
 
 ---
 
@@ -156,10 +156,6 @@ Key papers that informed this work:
 Product Manager | ML Enthusiast  
 [LinkedIn Profile](linkedin.com/in/otu-jacob) · [Streamlit App](https://churn2predictor.streamlit.app/)
 
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 
 *Built as part of a Machine Learning Systems assignment, from problem definition to live deployment.*
