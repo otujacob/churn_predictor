@@ -5,14 +5,15 @@
 [![GitHub](https://img.shields.io/badge/Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/otujacob/churn_predictor)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange?style=for-the-badge)](https://xgboost.readthedocs.io/)
----
 
+---
 
 ## 🚀 Live Demo
 
-> **Try the deployed app here → [https://churn2predictor.streamlit.app/]**
+> **Try the deployed app here → [https://churn2predictor.streamlit.app/](https://churn2predictor.streamlit.app/)**
 >
 > Enter any customer profile and get a real-time churn probability prediction instantly.
+
 ---
 
 ## 📌 Project Overview
@@ -26,6 +27,7 @@ This was built as a full ML systems assignment covering:
 - Model implementation, debugging & tuning
 - Experimental evaluation & model selection
 - Live deployment on Streamlit Community Cloud
+
 ---
 
 ## 🏆 Final Results
@@ -37,10 +39,12 @@ This was built as a full ML systems assignment covering:
 | **XGBoost (Tuned) ✅** | **~0.87** | **~0.63** | **~0.60** | **~0.88** |
 
 > **Winner: XGBoost (Tuned)** — highest ROC-AUC, F1, and cross-validation stability across all 5 evaluation methods.
+
 ---
 
 ## 🗂️ Project Structure
 
+```
 churn-predictor/
 │
 ├── app.py                  # Streamlit web application
@@ -48,10 +52,9 @@ churn-predictor/
 ├── final_model.pkl         # Trained XGBoost model
 ├── scaler.pkl              # Fitted StandardScaler
 ├── feature_names.pkl       # Feature names for pipeline consistency
-└── README.md               # About the project & result 
+└── README.md               # You are here
 ```
 
----
 
 ## ⚙️ ML Pipeline
 
@@ -104,14 +107,13 @@ Five complementary methods were used — because accuracy alone lies on imbalanc
 - ✅ **Precision-Recall Curve** — imbalance-aware performance
 - ✅ **5-Fold Cross-Validation** — stability across data splits
 
----
 
 ## 🖥️ Run Locally
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/otujacob/churn_predictor
-cd churn-predictor
+git clone https://github.com/otujacob/churn_predictor.git
+cd churn_predictor
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -120,7 +122,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
 
 ## 📦 Dependencies
 
@@ -137,8 +138,6 @@ seaborn
 plotly
 ```
 
----
-
 ## 📚 References
 
 Key papers that informed this work:
@@ -153,16 +152,14 @@ Key papers that informed this work:
 
 ## 👤 Author
 
-**OTU SAMUEL JACOB**  
+**[OTU SAMUEL JACOB]**  
 Product Manager | ML Enthusiast  
 [LinkedIn Profile](linkedin.com/in/otu-jacob) · [Streamlit App](https://churn2predictor.streamlit.app/)
 
----
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
 
-*Built as part of a Machine Learning Systems assignment — from problem definition to live deployment.*
+*Built as part of a Machine Learning Systems assignment, from problem definition to live deployment.*
