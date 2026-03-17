@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/badge/Repo-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/otujacob/churn_predictor)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange?style=for-the-badge)](https://xgboost.readthedocs.io/)
-
+---
 
 
 ## 🚀 Live Demo
@@ -13,7 +13,7 @@
 > **Try the deployed app here → [https://churn2predictor.streamlit.app/]**
 >
 > Enter any customer profile and get a real-time churn probability prediction instantly.
-
+---
 
 ## 📌 Project Overview
 
@@ -26,7 +26,7 @@ This was built as a full ML systems assignment covering:
 - Model implementation, debugging & tuning
 - Experimental evaluation & model selection
 - Live deployment on Streamlit Community Cloud
-
+---
 
 ## 🏆 Final Results
 
@@ -37,7 +37,7 @@ This was built as a full ML systems assignment covering:
 | **XGBoost (Tuned) ✅** | **~0.87** | **~0.63** | **~0.60** | **~0.88** |
 
 > **Winner: XGBoost (Tuned)** — highest ROC-AUC, F1, and cross-validation stability across all 5 evaluation methods.
-
+---
 
 ## 🗂️ Project Structure
 
