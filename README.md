@@ -18,7 +18,7 @@
 
 ## 📌 Project Overview
 
-Every day, digital banks silently lose customers — no warning, no goodbye.  
+Every day, digital banks silently lose customers, no warning, no goodbye!  
 This project builds a complete machine learning system that predicts **which customers are at risk of churning**, before they do.
 
 This was built as a full ML systems assignment covering:
@@ -38,7 +38,7 @@ This was built as a full ML systems assignment covering:
 | Random Forest | ~0.85 | ~0.61 | ~0.57 | ~0.86 |
 | **XGBoost (Tuned) ✅** | **~0.87** | **~0.63** | **~0.60** | **~0.88** |
 
-> **Winner: XGBoost (Tuned)** — highest ROC-AUC, F1, and cross-validation stability across all 5 evaluation methods.
+> **Winner: XGBoost (Tuned)** - highest ROC-AUC, F1, and cross-validation stability across all 5 evaluation methods.
 
 ---
 
@@ -90,16 +90,16 @@ Four new interaction features were created to expose behavioural signals:
 
 | Feature | Description |
 |---|---|
-| `BalanceSalaryRatio` | Balance ÷ Salary — measures relative financial engagement |
-| `ActiveWithCard` | IsActiveMember × HasCrCard — combined activity signal |
-| `ZeroBalance` | Binary flag for £0 balance — disengagement indicator |
-| `AgeGroup` | Age bucketed into 4 life-stage bands (18–30, 31–45, 46–60, 60+) |
+| `BalanceSalaryRatio` | Balance ÷ Salary - measures relative financial engagement |
+| `ActiveWithCard` | IsActiveMember × HasCrCard - combined activity signal |
+| `ZeroBalance` | Binary flag for £0 balance - disengagement indicator |
+| `AgeGroup` | Age bucketed into 4 life-stage bands (18-30, 31-45, 46-60, 60+) |
 
 ---
 
 ## 📊 Evaluation Methods
 
-Five complementary methods were used — because accuracy alone lies on imbalanced data:
+Five complementary methods were used - because accuracy alone lies on imbalanced data:
 
 - ✅ **ROC-AUC** - threshold-independent ranking quality
 - ✅ **F1 Score** - precision/recall balance on minority class
