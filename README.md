@@ -152,7 +152,7 @@ Key papers that informed this work:
 
 ## 👤 Author
 
-**[OTU SAMUEL JACOB]**  
+**OTU SAMUEL JACOB**  
 Product Manager | ML Enthusiast  
 [LinkedIn Profile](linkedin.com/in/otu-jacob) · [Streamlit App](https://churn2predictor.streamlit.app/)
 
