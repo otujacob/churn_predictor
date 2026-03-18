@@ -101,11 +101,11 @@ Four new interaction features were created to expose behavioural signals:
 
 Five complementary methods were used — because accuracy alone lies on imbalanced data:
 
-- ✅ **ROC-AUC** — threshold-independent ranking quality
-- ✅ **F1 Score** — precision/recall balance on minority class
-- ✅ **Recall** — proportion of actual churners correctly caught
-- ✅ **Precision-Recall Curve** — imbalance-aware performance
-- ✅ **5-Fold Cross-Validation** — stability across data splits
+- ✅ **ROC-AUC** - threshold-independent ranking quality
+- ✅ **F1 Score** - precision/recall balance on minority class
+- ✅ **Recall** - proportion of actual churners correctly caught
+- ✅ **Precision-Recall Curve** - imbalance-aware performance
+- ✅ **5-Fold Cross-Validation** - stability across data splits
 
 
 ## 🖥️ Run Locally
